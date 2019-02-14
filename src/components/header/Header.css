@@ -1,0 +1,13 @@
+.Header {
+    background-color: rgb(67, 10, 100);
+    display: grid;
+    
+    width: 100%;
+    padding: 10px auto 10px 10px;
+    margin: 0px;
+    
+}
+.Header > h1 {
+    color: aliceblue;
+    padding-left: 20px;
+}

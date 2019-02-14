@@ -1,0 +1,36 @@
+.PokemonList{
+    display: grid;
+    width: 100%;
+    
+    justify-content: center;
+    align-items: center;
+}
+.PokemonListCard{
+    margin-top:10px;
+    width: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+.PokemonLCard {
+    display: grid;
+    background-color: rgba(136, 30, 185, 0.425);
+    
+}
+.PokemonLCard:hover {
+    display: grid;
+    background-color: #ffffff;
+    outline:  5px solid  rgb(67, 10, 100);;
+    border-radius: 3%;
+
+}
+.PokemonLCard h1  {
+ color: rgb(67, 10, 100);
+ padding-left: 10px;   
+ 
+}
+.PokemonLCard h2 {
+    color: rgb(67, 10, 100);
+    padding-left: 10px;   
+    font-size: 30px;
+   }

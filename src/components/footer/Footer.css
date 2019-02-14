@@ -1,0 +1,13 @@
+.Footer {
+    background-color: rgb(67, 10, 100);
+    display: grid;
+    
+    width: 100%;
+  
+    margin: 0px;
+    
+}
+.Footer > h1 {
+    color: aliceblue;
+    text-align: center;
+}
